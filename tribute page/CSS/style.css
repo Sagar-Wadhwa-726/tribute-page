@@ -1,0 +1,102 @@
+/*CSS RESET*/
+
+*{
+    padding: 1px;
+    margin:1px;
+}
+
+body{
+    background-image: linear-gradient(45deg, rgb(241, 111, 111), yellow);
+}
+
+/*CSS Applied to Main Image of Steve Jobs */
+#image{
+    display: block;
+    max-width:100%;
+    height:auto;
+    border-radius: 10px;
+    margin:10px;
+    box-shadow:5px 3px gold;
+    transition: all 0.2s ease-in-out;
+
+}
+
+
+#img:hover{
+    width:27%;  
+    height:53vh;
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-caption{
+    font-size:1.8rem;
+}
+
+/*Information About Steve Jobs*/
+#tribute-info{
+    display: block;
+    border:2px solid rgb(0, 38, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 60%;
+    text-align: center;
+    line-height: 35px;
+    left:300px;
+    box-shadow:5px 5px royalblue;
+}
+
+
+/*UTILITY CLASSES*/
+
+html{
+    font-size: 10px;
+}
+
+.h-primary{
+    font-size: 4.8rem;
+    text-align: center;
+
+}
+
+ul{
+    list-style:disc;
+}
+
+li{
+    font-size: 2.0rem;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: xx-large;
+    color:black;
+    margin: 50px;
+    display: block;
+    text-align: center;
+
+}
+
+@media only screen and (max-width:700px) {
+
+    #image{
+        background-color: blue;
+    width:70%;
+    height:50vh;
+    border-radius: 10px;
+    margin:10px;
+    box-shadow:5px 3px gold;
+    transition: all 0.2s ease-in-out;
+
+}
+    #img-caption{
+        text-align: center;
+    }
+}
